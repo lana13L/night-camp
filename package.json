@@ -1,0 +1,38 @@
+{
+  "name": "2tailwindreact",
+  "homepage": "https://lana13L.github.io/night-camp/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  "start": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy":"gh-pages -d dist"
+},
+  "dependencies": {
+    "@radix-ui/react-toast": "^1.2.13",
+    "@tailwindcss/vite": "^4.1.7",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "keen-slider": "^6.8.6",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
+  }
+}
