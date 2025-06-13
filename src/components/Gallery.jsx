@@ -73,13 +73,13 @@ const Gallery = () => {
       {/* Keen Slider container */}
       <div ref={sliderContainerRef} className="keen-slider" aria-label="Image Gallery Carousel">
         {images.map((src, idx) => (
-          <div key={idx} className="keen-slider__slide">
+          <div key={idx} className="keen-slider__slide group ">
             {/* Slide image with styling */}
             <img
               loading="lazy"
               src={src}
               alt={`Camping photo ${idx + 1}`}
-              className="rounded-xl w-full h-80 object-cover shadow-lg"
+              className="rounded-xl w-full h-80 object-cover group-hover:scale-110 shadow-lg transition-all duration-500 ease-in-out"
             />
           </div>
         ))}

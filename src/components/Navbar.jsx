@@ -51,7 +51,7 @@ const Navbar = () => {
                 key={key}
                 className={`transition-colors duration-300 ${
                   activeSection === item.href
-                    ? "text-primary"
+                    ? "text-primary font-bold"
                     : "text-foreground/80 hover:text-primary"
                 }`}
               >

@@ -9,7 +9,7 @@ const Footer = () => {
 ];
 
   return (
-    <footer className=" pt-8 pb-4 text-xs md:text-sm">
+    <footer id='Footer' className=" pt-8 pb-4 text-xs md:text-sm">
       <div className=" mx-auto  ">
         <div className="grid grid-cols-1 items-end  px-5 md:grid-cols-3 gap-4 ">
       

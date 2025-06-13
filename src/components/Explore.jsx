@@ -76,7 +76,7 @@ const Explore = () => {
     <section id="Explore" className="lg:container px-3 py-10 lg:py-20">
       <div className="md:mb-8 mb-3 md:w-[700px] px-2.5 md:text-start">
         {/* Title and subtitle section */}
-        <h4 className="text-xl md:mb-5 mb-3 md:text-4xl  text-primary text-glow text-5xl ">
+        <h4 className="text-xl md:mb-5 mb-3 md:text-4xl  text-primary text-glow text-5xl font-bold ">
           Choose Your Perfect Camping Spot
         </h4>
         <p className="text-xl  md:text-lg text-xs">

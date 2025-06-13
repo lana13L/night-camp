@@ -62,7 +62,7 @@ const Contact = () => {
         
         {/* Left side: Map and contact description */}
         <div className="md:w-1/2 w-full text-start md:order-1 order-2">
-          <h4 className="text-xl mb-3 text-glow text-primary uppercase">Find Us & Reach Out</h4>
+          <h4 className="text-2xl mb-3 text-glow text-primary font-bold">Find Us & Reach Out</h4>
           <p className="mb-7">
             For any questions, bookings, or support. Whether you're planning a visit or need help along the way, we're here to assist and look forward to connecting with you.
           </p>
@@ -88,7 +88,7 @@ const Contact = () => {
                 errors.name ? 'border-red-500' : 'border-primary/15'
               } rounded py-3 px-4 text-white transition focus:outline-none focus:bg-primary/20`}
             />
-            {errors.name && <p className="text-red-500 text-sm text-left mt-1">{errors.name}</p>}
+            {errors.name && <p className="text-red-500 text-sm text-left ">{errors.name}</p>}
 
             {/* Email input field */}
             <input
